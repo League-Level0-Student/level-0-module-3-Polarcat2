@@ -11,10 +11,11 @@ public class RobotColorChooser {
 	public static void main(String[] args) {
 		
 		//1. Create a new Robot
+		for (int i = 0; i < 100; i++) {
+			
 		Robot Mango = new Robot("mini");
 	    //2. Make the robot draw a shape (this will take more than one line of code)	
 		Mango.setSpeed(100);
-		Mango.
 		Mango.penDown();
 		//3. Set the pen width to 10
 	Mango.setPenWidth(10);
@@ -31,7 +32,22 @@ public class RobotColorChooser {
         //6. If the user doesn't enter anything, choose a random color
 	     else {
 		Mango.setRandomPenColor();
-	}
+	} 
+	Mango.move(100);
+	Mango.turn(50);
+	Mango.move(100);
+	Mango.turn(50);
+	Mango.move(100);
+	Mango.turn(50);
+	Mango.move(100);
+	Mango.turn(50);
+	Mango.move(100);
+	Mango.turn(50);
+	Mango.move(100);
+	Mango.turn(50);
+	Mango.move(100);	
+		}
+	
         //7. Put a loop around your code so that you keep asking the user for more colors & drawing them
 		
 	}
