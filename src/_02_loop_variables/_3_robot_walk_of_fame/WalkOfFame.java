@@ -13,6 +13,12 @@ mack.setX(50);
 		// 2. Make the robot draw a star shape. Hint: angle=144.
 mack.penDown();
 mack.move(30);
+mack.turn(144);
+mack.move(30);
+mack.turn(144);
+mack.move(30);
+mack.turn(144);
+
 		// 3. Set the length of each line in the star to 30.
 
 		/** THE CHALLENGE: **/
